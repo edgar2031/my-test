@@ -159,10 +159,10 @@ async def handle_inline_query(update: Update, context: ContextTypes.DEFAULT_TYPE
             results = [
                 InlineQueryResultArticle(
                     id="usage",
-                    title="💼 Job Search Bot",
+                    title="💼 IT Jobs Finder Bot",
                     description="Type a job keyword to search for jobs (e.g., 'python developer')",
                     input_message_content=InputTextMessageContent(
-                        message_text="Usage: @your_bot_name <job_keyword>\nExample: @your_bot_name python developer"
+                        message_text="Usage: @itjobsfinder_bot <job_keyword>\nExample: @itjobsfinder_bot python developer"
                     )
                 )
             ]
